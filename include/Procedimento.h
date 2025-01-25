@@ -42,11 +42,7 @@ class Procedimento {
     ~Procedimento();
     void limparUnidades();
     void getUtilizacao();
-    //getTipoProcedimento()
-    //getLatencia()
-    //getNumUnidades()
 
-    //private:
     TipoProcedimento tipo;
     float latencia;
     int numUnidades;

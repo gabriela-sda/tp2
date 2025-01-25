@@ -42,12 +42,11 @@ class SimuladorHospital {
     void finalizarProcedimento(Paciente* paciente, TipoProcedimento procedimentoFinalizado);
 
     // Funções para gerar estatisticas
-    
     void calcularTempoTotalMedio();
     void calcularTempoConsultaMedio();
     void calcularTempoEsperaMedio();
     void calcularTempoEsperaMedioPorPrioridade();
-    void calcularUtilizacaoMediaPorProcedimento(); //copiar de procedimento
+    void calcularUtilizacaoMediaPorProcedimento();
 
 };
 

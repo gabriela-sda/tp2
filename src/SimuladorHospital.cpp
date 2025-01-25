@@ -85,15 +85,6 @@ void SimuladorHospital::iniciarSimulacao() {
                 processarFaseA();
                 processarFaseB();
                 processarFaseC();
-                /*
-                std::cout << "\nHorário atual: " << horarioAtual << 
-                " Pacientes na fila de triagem: " << filaTriagem.getTamanho() <<
-                " Pacientes na fila de atendimento: " << filaAtendimento[0].getTamanho() + filaAtendimento[1].getTamanho() + filaAtendimento[2].getTamanho() <<
-                " Pacientes na fila de medidas: " << filaMedidas[0].getTamanho() + filaMedidas[1].getTamanho() + filaMedidas[2].getTamanho() <<
-                " Pacientes na fila de testes: " << filaTestes[0].getTamanho() + filaTestes[1].getTamanho() + filaTestes[2].getTamanho() <<
-                " Pacientes na fila de exames: " << filaExames[0].getTamanho() +  filaExames[1].getTamanho() + filaExames[2].getTamanho() <<
-                " Pacientes na fila de medicação: " << filaMedicacao[0].getTamanho() + filaMedicacao[1].getTamanho() + filaMedicacao[2].getTamanho() << std::endl;
-                */
         }
     } catch (...) {
         while (escalonador.temEventos()) {

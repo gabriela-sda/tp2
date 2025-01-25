@@ -37,7 +37,6 @@ class Paciente {
     void registrarTempoHospital();
     void registrarDataAlta();
 
-    //public:
     long id;
     int alta;
     int urgencia; //0 = verde, 1 = amarelo, 2 = vermelho
